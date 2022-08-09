@@ -29,7 +29,7 @@ const CardWeather = ({ lon, lat }) => {
           setTemperature(temp)
           setIsLoading(false)
           setBackImage({
-            backgroundImage: `url(src/assets/img/${res.data.weather[0].icon}.jpg)`,
+            backgroundImage: `url(../public/img/${res.data.weather[0].icon}.jpg)`,
             height: '100vh',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
