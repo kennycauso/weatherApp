@@ -33,7 +33,11 @@ const CardWeather = ({ lon, lat }) => {
             height: '100vh',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
-            backgroundPosition: 'center'
+            backgroundPosition: 'center',
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignItems: 'center'
           })
         })
         

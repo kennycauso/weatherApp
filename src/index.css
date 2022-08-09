@@ -5,12 +5,12 @@
     list-style: none;
     font-family: sans-serif;
 }
-.background-weather{
+/* .background-weather{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .container-weather{
     background-color: antiquewhite;
